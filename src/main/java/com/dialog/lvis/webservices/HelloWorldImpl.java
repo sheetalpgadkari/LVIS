@@ -28,5 +28,11 @@ public class HelloWorldImpl implements HelloWorld{
 		return helloWorldService.sayHi(name);
 	}
 
+	@Override
+	public RequestResponse doAddressSearch(Request addressSearchRequest) {
+		return helloWorldService.doAddressSearch(addressSearchRequest);
+	}
+
+
 	
 }
